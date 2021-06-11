@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+div{ /*описание для всех блоков div*/
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    margin: 10px 10px 10px 10px;
+}
+
+.first { /*обращение к классу first*/
+    background-color: pink;
+}
+
+.second { /*обращение к классу second*/
+    background-color: yellow;
+}
+
+/*смена цветов блоков по id */
+
+div#d2 {
+    background-color: khaki;
+}
+div#d3 {
+    background-color: brown;
+}
+div#d4 {
+    background-color: orange;
+}
+    </body>
+</html> 
